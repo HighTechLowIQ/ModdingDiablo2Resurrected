@@ -10,7 +10,7 @@ There are accompanying YouTube videos about modding Diablo 2 Resurrected, which 
 
 [![How To Package Diablo 2 Resurrected Mods](https://img.youtube.com/vi/tLMppJOOO0o/0.jpg)](https://www.youtube.com/watch?v=tLMppJOOO0o)
 
-[![Will I Get Banned For Modding Diablo 2 Resurrected](https://img.youtube.com/vi/Fzegl_xFXDM/0.jpg)](https://www.youtube.com/watch?v=Fzegl_xFXDM)
+[![Will I Get Banned For Modding Diablo 2 Resurrected](https://img.youtube.com/vi/Evvkz2AiWWg/0.jpg)](https://www.youtube.com/watch?v=Evvkz2AiWWg)
 
 ## Text Guide
 
@@ -22,4 +22,4 @@ TODO
 2. [How To Mod Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=RMquP82QHGw)
 3. [Importing Old Characters into Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=VqSrUiq1eQo)
 4. [How To Package Diablo 2 Resurrected Mods - YouTube Video](https://www.youtube.com/watch?v=tLMppJOOO0o)
-5. [Will I Get Banned For Modding Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Fzegl_xFXDM)
+5. [Will I Get Banned For Modding Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Evvkz2AiWWg)
