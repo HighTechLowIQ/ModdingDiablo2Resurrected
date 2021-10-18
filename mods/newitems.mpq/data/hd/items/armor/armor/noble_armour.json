@@ -1,0 +1,104 @@
+{
+   "dependencies":{
+      "particles":[
+         
+      ],
+      "models":[
+         {
+            "path":"data/hd/items/dropped_items/chain_mail.model"
+         }
+      ],
+      "skeletons":[
+         {
+            "path":"data/hd/items/dropped_items/skeleton/dropped_items_armor_chest_mail.skeleton"
+         }
+      ],
+      "animations":[
+         
+      ],
+      "textures":[
+         {
+            "path":"data/hd/items/armor/armor/noble_armour/textures/armor_noble_armour_alb.texture"
+         },
+         {
+            "path":"data/hd/items/armor/armor/noble_armour/textures/armor_noble_armour_mask.texture"
+         },
+         {
+            "path":"data/hd/items/armor/armor/noble_armour/textures/armor_noble_armour_nrm.texture"
+         },
+         {
+            "path":"data/hd/items/armor/armor/noble_armour/textures/armor_noble_armour_orm.texture"
+         }
+      ],
+      "physics":[
+         
+      ],
+      "json":[
+         {
+            "path":"data/hd/items/dropped_items/dropped_items_armor_chest_mail_nw.json"
+         }
+      ],
+      "variantdata":[
+         
+      ],
+      "objecteffects":[
+         
+      ],
+      "other":[
+         
+      ]
+   },
+   "type":"UnitDefinition",
+   "name":"noble_armour",
+   "entities":[
+      {
+         "type":"Entity",
+         "name":"entity_root",
+         "id":3765778349,
+         "components":[
+            {
+               "type":"UnitRootComponent",
+               "name":"component_root",
+               "state_machine_filename":"data/hd/items/dropped_items/dropped_items_armor_chest_mail_nw.json",
+               "doNotInheritRotation":false,
+               "rotationOverride":{
+                  "x":0.0,
+                  "y":0.3826834,
+                  "z":0.0,
+                  "w":0.9238795
+               },
+               "doNotUseHDHeight":false,
+               "hideAllMeshWhenInOpenedMode":false,
+               "onCreateEventName":"",
+               "animations":[
+                  
+               ]
+            },
+            {
+               "type":"SkeletonDefinitionComponent",
+               "name":"component_skeleton",
+               "filename":"data/hd/items/dropped_items/skeleton/dropped_items_armor_chest_mail.skeleton"
+            }
+         ]
+      },
+      {
+         "type":"Entity",
+         "name":"entity_model",
+         "id":3681526428,
+         "components":[
+            {
+               "type":"ModelDefinitionComponent",
+               "name":"component_model_chain_mail",
+               "filename":"data/hd/items/dropped_items/chain_mail.model",
+               "visibleLayers":1,
+               "lightMask":19,
+               "shadowMask":3,
+               "ghostShadows":false,
+               "floorModel":false,
+               "terrainBlendEnableYUpBlend":false,
+               "terrainBlendMode":1
+            }
+         ]
+      }
+   ]
+}
