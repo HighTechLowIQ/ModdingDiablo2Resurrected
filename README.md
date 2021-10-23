@@ -30,6 +30,14 @@ This video looks at how to add new weapons and armour to Diablo 2 Resurrected, a
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/newitems.mpq).
 
+**Modding New Set and Unique Item Sprites**
+
+[![Modding New Set and Unique Item Sprites](https://img.youtube.com/vi/y-yDdxPFsJY/0.jpg)](https://www.youtube.com/watch?v=y-yDdxPFsJY)
+
+This video looks at how to add unique and set item graphics (sprites) to Diablo 2 Resurrected. It builds off the previous video on modding in new weapons and armour into Diablo 2 Resurrected, and adding those items to a new set. For this D2R mod, we'll modify the King's Sword set item inventory graphics (sprites), making it really stand out.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/newitems2.mpq).
+
 #### Older/Outdated Guides
 **How To Package Diablo 2 Resurrected Mods:**
 
@@ -61,3 +69,4 @@ TODO
 5. [Will I Get Banned For Modding Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Evvkz2AiWWg)
 6. [Fastest Way To Mod Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=lZTTq7MXZ5w)
 7. [Creating New Items and Sets in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
+8. [Modding New Set and Unique Item Sprites | Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=y-yDdxPFsJY)
