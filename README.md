@@ -38,6 +38,14 @@ This video looks at how to add unique and set item graphics (sprites) to Diablo 
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/newitems2.mpq).
 
+**New Runes and Runewords:**
+
+[![New Runes and Runewords | D2R Modding](https://img.youtube.com/vi/brOSBpiwejA/0.jpg)](https://www.youtube.com/watch?v=brOSBpiwejA)
+
+This video looks at how to add new runes and runewords to Diablo 2 Resurrected. This also includes looking at all the unimplemented runewords in Diablo 2 Resurrected, and how the game can be modded to add those runewords back in. For this D2R mod, we'll create the Fus Ro Dah runes, and from those new runes, create the Dragonborn runeword! It's time to bring Skyrim to Diablo 2 Resurrected!
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/runes.mpq).
+
 #### Older/Outdated Guides
 **How To Package Diablo 2 Resurrected Mods:**
 
@@ -70,3 +78,4 @@ TODO
 6. [Fastest Way To Mod Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=lZTTq7MXZ5w)
 7. [Creating New Items and Sets in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
 8. [Modding New Set and Unique Item Sprites | Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=y-yDdxPFsJY)
+9. [New Runes and Runewords | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=brOSBpiwejA)
