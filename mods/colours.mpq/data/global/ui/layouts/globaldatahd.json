@@ -1,0 +1,692 @@
+{
+    "type": "GlobalData", "name": "GlobalData",
+    "fields": {
+        "baseColors": [
+            { "r": 255, "g": 255, "b": 255, "a": 255 }, // SPRITE_COLOR_NORMAL / FONTCOLOR_WHITE
+            { "r": 255, "g": 77, "b": 77, "a": 255 }, // SPRITE_COLOR_RED
+            { "r": 0, "g": 255, "b": 0, "a": 255 }, // SPRITE_COLOR_GREEN
+            "$FontColorAqua", // SPRITE_COLOR_BLUE
+            "$FontColorBetterGold", // SPRITE_COLOR_PANEL / FONTCOLOR_GOLD
+            { "r": 105, "g": 105, "b": 105, "a": 255 }, // SPRITE_COLOR_GREY
+            { "r": 0, "g": 0, "b": 0, "a": 255 }, // SPRITE_COLOR_BLACK
+            { "r": 208, "g": 194, "b": 125, "a": 255 }, // SPRITE_COLOR_BNETGOLD - Unused
+            { "r": 255, "g": 168, "b": 0, "a": 255 }, // SPRITE_COLOR_ORANGE
+            { "r": 255, "g": 255, "b": 100, "a": 255 }, // SPRITE_COLOR_YELLOW
+            { "r": 0, "g": 128, "b": 0, "a": 255 }, // SPRITE_COLOR_DARKGREEN
+            { "r": 174, "g": 0, "b": 255, "a": 255 }, // SPRITE_COLOR_PURPLE
+            { "r": 0, "g": 200, "b": 0, "a": 255 }, // SPRITE_COLOR_NEWCHAR
+        ],
+        "etherealIconTransparency": 0.5,
+        "chatFontSizes": [ "$MediumFontSize", "$XMediumLargeFontSize", "$LargeFontSize", "$ExtraLargeFontSize" ],
+    },
+    "children": [
+        {
+            "type": "SpriteColoringHelper", "name": "SpriteColoringHelper",
+            "fields": {
+                "colorRange": [
+                     // ITRANSFORMCLASS_NONE - Used
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_GREY
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_GREY2 - Used
+                     {
+                         "hue": [ 0.0, 0.501 ],
+                         "saturation": [ 0.14, 0.14 ],
+                         "value": [ 0.425, 0.54 ]
+                     },
+                     // ITRANSFORMCLASS_GOLD
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_BROWN
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_GREYBROWN - Used
+                     {
+                         "hue": [ 0.0, 0.501 ],
+                         "saturation": [ 0.175, 0.175 ],
+                         "value": [ 0.4, 0.4 ]
+                     },
+                     // ITRANSFORMCLASS_INV_GREY
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_INV_GREY2
+                     "$EmptyColorRange",
+                     // ITRANSFORMCLASS_INV_GREYBROWN - Used
+                     {
+                         "hue": [ 0.05, 0.06 ], //[ 0.03, 0.05 ],
+                         "saturation": [ 0.5, 0.501 ],
+                         "value": [ 0.585, 0.415 ]
+                     },
+                ],
+                "colorTransform": [
+                     {
+                         "comment": "ITRANSFORM_WHITE whit",
+                         "hsvTransform": [ 0.0, -0.5, 0.5, 0.0 ],
+                         "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTGREY lgry",
+                         "hsvTransform": [ 0.0, -0.55, -0.35, 0.0 ],
+                         "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKGREY dgry",
+                         "hsvTransform": [ 0.0, -0.6, -0.5, 0.0 ],
+                         "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_BLACK blac",
+                         "hsvTransform": [ 0.0, -0.65, -0.65, 0.0 ],
+                         "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTBLUE lblu",
+                         "hsvTransform": [ -0.47, 0.2, 0.6, 0.0 ],
+                         "tintTransform": [ 0.595, 0.96, 0.98, 0.40 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKBLUE dblu",
+                         "hsvTransform": [ -0.46, 0.25, 0.2, 0.0 ],
+                         "tintTransform": [ 0.473, 0.77, 0.788, 0.6 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_CRYSTALBLUE cblu",
+                         "hsvTransform": [ 0.58, 0.2, 0.5, 0.0 ],
+                         "tintTransform": [ 0.427, 0.698, 0.728, 0.5 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTRED lred",
+                         "hsvTransform": [ 0.0, 0.25, 0.55, 0.0 ],
+                         "tintTransform": [ 1.0, 0.0, 0.0, 0.5 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKRED dred",
+                         "hsvTransform": [ 0.0, 0.75, -0.35, 0.0 ],
+                         "tintTransform": [ 1.0, 0.0, 0.0, 0.5 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_CRYSTALRED cred",
+                         "hsvTransform": [ 0.0, 1.0, 0.5, 0.0 ],
+                         "tintTransform": [ 0.9, 0.1, 0.0, 0.7 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTGREEN lgrn",
+                         "hsvTransform": [ 0.25, 0.25, -0.1, 0.0 ],
+                         "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKGREEN dgrn",
+                         "hsvTransform": [ 0.25, 0.0, -0.3, 0.0 ],
+                         "tintTransform": [ 0.0, 0.8, 0.0, 0.3 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_CRYSTALGREEN cgrn",
+                         "hsvTransform": [ 0.25, 1.0, 0.3, 0.0 ],
+                         "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTYELLOW lyel",
+                         "hsvTransform": [ 0.065, 0.4, 0.4, 0.0 ],
+                         "tintTransform": [ 0.8, 0.68, 0.25, 0.8 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKYELLOW dyel",
+                         "hsvTransform": [ 0.05, 0.4, -0.2, 0.0 ],
+                         "tintTransform": [ 0.57, 0.49, 0.28, 0.7 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTGOLD lgld",
+                         "hsvTransform": [ 0.04, 0.0, 0.5, 0.0 ],
+                         "tintTransform": [ 0.882, 0.813, 0.71, 0.6 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKGOLD dgld",
+                         "hsvTransform": [ 0.0, 0.0, 0.5, 0.0 ],
+                         "tintTransform": [ 0.686275, 0.403922, 0.011765, 0.6 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_LIGHTPURPLE lpur",
+                         "hsvTransform": [ -0.33, 0.80, 0.4, 0.0 ],
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.3 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_DARKPURPLE dpur",
+                         "hsvTransform": [ -0.16, 0.35, -0.25, 0.0 ],
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.75 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_ORANGE oran",
+                         "hsvTransform": [ 0.04, 0.3, 0.0, 0.0 ],
+                         "tintTransform": [ 1.0, 0.25, 0.0, 0.42 ],
+                     },
+                     {
+                         "comment": "ITRANSFORM_BRIGHTWHITE bwht",
+                         "hsvTransform": [ 0.0, -0.5, 1.05, 0.0 ],
+                         "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                     },
+                ],
+                "colorRangeOverride": [
+                     [
+                         "data/hd/global/ui/items/armor/armor/breast_plate",
+                         {
+                             "hue": [ 0.0, 0.501 ],
+                             "saturation": [ 0.14, 0.14 ],
+                             "value": [ 0.425, 0.54 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/helm",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/great_helm",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/crown",
+                         {
+                             "hue": [ 0.035, 0.042 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/quilted_armor",
+                         {
+                             "hue": [ 0.05, 0.08 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/leather_armor",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/hard_leather_armor",
+                         {
+                             "hue": [ 0.05, 0.15 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/studded_leather",
+                         {
+                             "hue": [ 0, 0.501 ], // - keep rivets [ 0.035, 0.066 ]
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/field_plate",
+                         {
+                             "hue": [ 0, 0.51 ],
+                             "saturation": [ 0.2, 0.2 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/gothic_plate",
+                         {
+                             "hue": [ 0.65, 0.39 ],
+                             "saturation": [ 0.5, 0.501 ],
+                             "value": [ 0.5, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/full_plate_mail",
+                         {
+                             "hue": [ 0, 0.51 ],
+                             "saturation": [ 0.2, 0.2 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/ring_mail",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/scale_mail",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/chain_mail",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/splint_mail",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/ancient_armor",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/light_plate",
+                         {
+                             "hue": [ 0, 0.51 ],
+                             "saturation": [ 0.24, 0.24 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/buckler",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/small_shield",
+                         {
+                             "hue": [ 0.04, 0.05 ],
+                             "saturation": [ 0.65, 0.351 ],
+                             "value": [ 0.35, 0.3 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/gothic_shield",
+                         {
+                             "hue": [ 0.035, 0.035 ],
+                             "saturation": [ 0, 0.501 ], // rim only [ 0.2, 0.2 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/glove/heavy_gloves",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/glove/light_gauntlets",
+                         {
+                             "hue": [ 0.15, 0.25 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/glove/gaunlets_h",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/boot/leather_boots",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/boot/heavy_boots",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/belt/sash_l",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/belt/light_belt",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/belt/heavy_belt",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.501 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/bone_helm",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/pelt/hawk_helm",
+                         {
+                             "hue": [ 0.035, 0.05 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/pelt/antlers",
+                         {
+                             "hue": [ 0.074, 0.033 ],
+                             "saturation": [ 0.63, 0.15 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/pelt/falcon_mask",
+                         {
+                             "hue": [ 0.11, 0.055 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/pelt/spirit_mask",
+                         {
+                             "hue": [ 0.245, 0.2 ],
+                             "saturation": [ 0.54, 0.46 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/pelt/wolf_head",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0.54, 0.46 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/jawbone_cap",
+                         {
+                             "hue": [ 0.1, 0.03 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/avenger_guard",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/fanged_helm",
+                         {
+                             "hue": [ 0, 0.501 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/horned_helm",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.501 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/cap_hat",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/coif_of_glory",
+                         {
+                             "hue": [ 0.55, 0.45 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0.28, 0.28 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/helmet/wormskull",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0.63, 0.37 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/ironpelt",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/armor/victors_silk",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ], // [ 0.5, 0.15 ], only gold
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/pelta_lunata",
+                         {
+                             "hue": [ 0.14, 0.14 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/bverrit_keep",
+                         {
+                             "hue": [ 0.01, 0.04 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/bow/pus_spiter",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0, 0.5 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/knife/warshrike",
+                         {
+                             "hue": [ 0, 0.5 ],
+                             "saturation": [ 0, 0.5 ],
+                             "value": [ 0.9, 0.1 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/axe/hand_axe",
+                         {
+                             "hue": [ 0.0, 0.501 ],
+                             "saturation": [ 0.078, 0.078 ],
+                             "value": [ 0.6, 0.401 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/scepter/scepter",
+                         {
+                             "hue": [ 0.03, 0.05 ],
+                             "saturation": [ 0, 0.501 ],
+                             "value": [ 0.6, 0.401 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/bow/whichwild_string",
+                         {
+                             "hue": [ 0.07, 0.04 ],
+                             "saturation": [ 0.76, 0.291 ],
+                             "value": [ 0.285, 0.335 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/h2h/natalyas_mark",
+                         {
+                             "hue": [ 0.5, 0.5 ],
+                             "saturation": [ 0.5, 0.501 ],
+                             "value": [ 0.16, 0.16 ]
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/staff/skullcollector",
+                         {
+                             "hue": [ 0.08, 0.05 ],
+                             "saturation": [ 0.5, 0.5 ],
+                             "value": [ 0.585, 0.415 ]
+                         }
+                     ],
+                     [
+                         "data/hd/global/ui/items/weapon/spear/soulfeast_tine",
+                         {
+                             "hue": [ 0.00, 0.5 ],
+                             "saturation": [ 0.5, 0.5 ],
+                             "value": [ 0.585, 0.415 ]
+                         }
+                     ],
+                ],
+                "colorTransformOverride": [
+                     [
+                         "data/hd/global/ui/items/weapon/bow/whichwild_string",
+                         "lblu",
+                         {
+                             "comment": "ITRANSFORM_LIGHTBLUE lblu",
+                             "hsvTransform": [ -0.45, 0.16, 1.01, 0.0 ],
+                             "tintTransform": [ 0.0, 0.22, 0.5, 0.25 ],
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/belt/sash_l",
+                         "blac",
+                         {
+                             "comment": "ITRANSFORM_BLACK blac",
+                             "hsvTransform": [ 0.0, -0.65, -0.7, 0.0 ],
+                             "tintTransform": [ 0.0, 0.0, 0.0, 0.0 ],
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/gothic_shield",
+                         "cgrn",
+                         {
+                             "comment": "ITRANSFORM_CRYSTALGREEN cgrn",
+                             "hsvTransform": [ 0.17, 0.15, 0.1, 0.0 ],
+                             "tintTransform": [ 0.0, 1.0, 0.0, 0.3 ],
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/gothic_shield",
+                         "lpur",
+                         {
+                         "comment": "ITRANSFORM_LIGHTPURPLE lpur",
+                         "hsvTransform": [ -0.15, 0.05, 0.25, 0.0 ],
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.3 ],
+                         },
+                     ],
+                     [
+                         "data/hd/global/ui/items/armor/shield/gothic_shield",
+                         "dpur",
+                         {
+                         "comment": "ITRANSFORM_DARKPURPLE dpur",
+                         "hsvTransform": [ -0.15, 0.2, 0.2, 0.0 ],
+                         "tintTransform": [ 0.553, 0.137, 0.51, 0.75 ],
+                         },
+                     ],
+                ]
+            }
+        },
+        {
+            "type": "LanguageFontRemapper", "name": "LanguageFontRemapper",
+            "fields": {
+                "fontLoadingInfo": [
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "English" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "German" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Spanish" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "French" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Italian" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Polish" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Russian" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Chinese" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Spanish Mexican" },
+                     { "loadFont": "BlizzardGlobal", "inLanguage": "Portuguese" },
+                     { "loadFont": "BlizzardGlobalTraditionalChinese", "inLanguage": "Traditional Chinese" },
+                     { "loadFont": "BlizzardGlobalTraditionalChinese", "inLanguage": "Korean" },
+                     { "loadFont": "BlizzardGlobalJapanese", "inLanguage": "Japanese" },
+                     { "loadFont": "Philosopher", "inLanguage": "Russian" },
+                     { "loadFont": "SNReilWA", "inLanguage": "Japanese" },
+                     { "loadFont": "TB Gothic", "inLanguage": "Japanese" },
+                     { "loadFont": "KoDia", "inLanguage": "Korean" },
+                     { "loadFont": "Iris", "inLanguage": "Korean" },
+                     { "loadFont": "AR FangXinShuh", "inLanguage": "Traditional Chinese" },
+                ],
+                "fontRemapping": [
+                     { "inLanguage": "Russian", "useFont": "Philosopher", "asFont": "Formal" },
+                     { "inLanguage": "Japanese", "useFont": "TB Gothic", "asFont": "Formal" },
+                     { "inLanguage": "Japanese", "useFont": "SNReilWA", "asFont": "Exocet" },
+                     { "inLanguage": "Japanese", "useFont": "BlizzardGlobalJapanese", "asFont": "BlizzardGlobal" },
+                     { "inLanguage": "Korean", "useFont": "Iris", "asFont": "Formal" },
+                     { "inLanguage": "Korean", "useFont": "KoDia", "asFont": "Exocet" },
+                     { "inLanguage": "Korean", "useFont": "BlizzardGlobalTraditionalChinese", "asFont": "BlizzardGlobal" },
+                     { "inLanguage": "Chinese", "useFont": "BlizzardGlobal", "asFont": "Exocet" },
+                     { "inLanguage": "Chinese", "useFont": "BlizzardGlobal", "asFont": "Formal" },
+                     { "inLanguage": "Traditional Chinese", "useFont": "AR FangXinShuh", "asFont": "Formal" },
+                     { "inLanguage": "Traditional Chinese", "useFont": "AR FangXinShuh", "asFont": "Exocet" },
+                     { "inLanguage": "Traditional Chinese", "useFont": "BlizzardGlobalTraditionalChinese", "asFont": "BlizzardGlobal" },
+                ]
+            }
+        },
+        {
+            "type": "ShowItemsParameters", "name": "ShowItemsParameters",
+            "fields": {
+                "itemNamesFont": {
+                    "fontColor": "$FontColorWhite",
+                    "pointSize": "$TooltipFontSize",
+                    "alignment": { "h": "center", "v": "center" },
+                    "options": { "pipeCharacterBehavior": "handle", "newlineHandling": "reversed" },
+                },
+            },
+        },
+    ]    
+}

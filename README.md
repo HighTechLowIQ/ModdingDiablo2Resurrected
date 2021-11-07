@@ -46,6 +46,14 @@ This video looks at how to add new runes and runewords to Diablo 2 Resurrected. 
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/runes.mpq).
 
+**Changing Item Colors:**
+
+[![Changing Colors in Diablo 2 Resurrected](https://img.youtube.com/vi/zryNy2wfoO4/0.jpg)](https://www.youtube.com/watch?v=zryNy2wfoO4)
+
+This video looks at how to change the color of item names, classes of items, and more in Diablo 2 Resurrected. We look at the color codes (ÿc codes), as well as the various JSON files which control all the colors across Diablo 2 Resurrected. We create a new Rainbow Sword unique weapon, and set its colors to those of an actual rainbow. We also change the color of unique items to a better gold, change the color of socketed items to aqua, and change the color of health, mana and rejuvination potions.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/colours.mpq).
+
 #### Older/Outdated Guides
 **How To Package Diablo 2 Resurrected Mods:**
 
@@ -79,3 +87,4 @@ TODO
 7. [Creating New Items and Sets in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
 8. [Modding New Set and Unique Item Sprites | Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=y-yDdxPFsJY)
 9. [New Runes and Runewords | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=brOSBpiwejA)
+10. [Changing Colors in Diablo 2 Resurrected | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=zryNy2wfoO4)
