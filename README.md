@@ -22,6 +22,14 @@ The above video shows the basics of modding Diablo 2 Resurrected. It goes over t
 Above is the most relevant video on modding D2R. It shows how to use a mod folder to only load the modified Diablo 2 Resurrected files, instead of having to extract all 40GB of data. This uses the `-mod {modname} -txt` command to load modified files from the `mods/{modname}/{modname}.mpq` directory. It is the easiest and fastest way to use Diablo 2 Resurrected mods.
 
 #### Specific Guides
+**D2R Drop Rates Explained**
+
+[![D2R Drop Rates Explained](https://img.youtube.com/vi/sGLcnrZLAJg/0.jpg)](https://www.youtube.com/watch?v=sGLcnrZLAJg)
+
+This video looks at Diablo 2 Resurrected's drop rates, and what calculations are done when a monster drops an item. We use an excel spreadsheet to calculate the chance for Baal in Hell to drop Tyrael's Might, and examine how we can change the data files in order to make Tyrael's Might drop more frequently. We look at things like effective magic find, players X, drop ratios, item types, rarity, treasure classes, etc.
+
+The excel spreadsheet can be found [here](TyraelsMight.xlsx).
+
 **Creating New Items and Sets in Diablo 2 Resurrected:**
 
 [![Creating New Items and Sets in Diablo 2 Resurrected](https://img.youtube.com/vi/Gtq-AuOMFBc/0.jpg)](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
@@ -88,3 +96,4 @@ TODO
 8. [Modding New Set and Unique Item Sprites | Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=y-yDdxPFsJY)
 9. [New Runes and Runewords | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=brOSBpiwejA)
 10. [Changing Colors in Diablo 2 Resurrected | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=zryNy2wfoO4)
+11. [D2R Drop Rates Explained - YouTube Video](https://www.youtube.com/watch?v=sGLcnrZLAJg)
