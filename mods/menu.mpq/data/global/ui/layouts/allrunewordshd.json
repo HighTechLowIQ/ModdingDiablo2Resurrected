@@ -1,0 +1,524 @@
+{
+    "type": "VideoOptionsPanel", "name": "allrunewords",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "OptionsTable",
+                    "fields": {
+                        "columns": [ 
+                            "$SmallTableColumn", 
+                            { "width": 650, "alignment": { "h": "fit", "v": "fit" } },
+                            { "width": 650, "alignment": { "h": "fit", "v": "fit" } }
+                        ],
+                        "rowHeight": "$OptionsTableRowHeight"
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "headers",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Runeword Name",
+                                    "fields": {
+                                        "text": "Runeword",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Item Type",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Runes",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ancientspledge",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Ancient's Pledge",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Offhand Armour",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Ral + Ort + Tal",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "black",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Black",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Clubs/Hammers/Maces",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Thul + Io + Nef",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "fury",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Fury",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Melee Weapons",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Jah + Gul + Eth",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "holythunder",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Holy Thunder",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Scepters",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Eth + Ral + Ort + Tal",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "honor",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Honor",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Melee Weapons",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Amn + El + Ith + Tir + Sol",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "kingsgrace",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "King's Grace",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Swords/Scepters",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Amn + Ral + Thul",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "leaf",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Leaf",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Staves",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Tir + Ral",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "lionheart",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Lionheart",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Body Armor",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Hel + Lum + Fal",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "lore",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Lore",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Helms",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Ort + Sol",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "malice",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Malice",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Melee Weapons",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Ith + El + Eth",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "melody",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Melody",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Missile Weapons",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Shael + Ko + Nef",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "memory",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Memory",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Staves",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Lum + Io + Sol + Eth",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "nadir",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Nadir",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Helms",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Nef + Tir",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "radiance",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Radiance",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Helms",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Nef + Sol + Ith",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rhyme",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Rhyme",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Shields",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Shael + Eth",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "silence",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Silence",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Weapons",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Dol + Eld + Hel + Ist + Tir + Vex",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "smoke",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Rune Name",
+                                    "fields": {
+                                        "text": "Smoke",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Item Type",
+                                    "fields": {
+                                        "text": "Body Armor",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Runes",
+                                    "fields": {
+                                        "text": "Nef + Lum",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

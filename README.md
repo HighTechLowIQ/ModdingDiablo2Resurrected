@@ -38,6 +38,14 @@ This video looks at how to add new weapons and armour to Diablo 2 Resurrected, a
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/newitems.mpq).
 
+**Custom Menus in Diablo 2 Resurrected:**
+
+[![Custom Menus in Diablo 2 Resurrected](https://img.youtube.com/vi/2BKt10zD8xA/0.jpg)](https://www.youtube.com/watch?v=2BKt10zD8xA)
+
+This video looks at adding new menus into Diablo 2 Resurrected. It shows how to add a custom menu for horadric cube recipes, and a new menu for runewords. This is perfect for any D2R mod creators out there who want to add more information about their mod into Diablo 2's menus.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/menu.mpq).
+
 **Modding New Set and Unique Item Sprites**
 
 [![Modding New Set and Unique Item Sprites](https://img.youtube.com/vi/y-yDdxPFsJY/0.jpg)](https://www.youtube.com/watch?v=y-yDdxPFsJY)
@@ -97,3 +105,4 @@ TODO
 9. [New Runes and Runewords | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=brOSBpiwejA)
 10. [Changing Colors in Diablo 2 Resurrected | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=zryNy2wfoO4)
 11. [D2R Drop Rates Explained - YouTube Video](https://www.youtube.com/watch?v=sGLcnrZLAJg)
+12. [Custom Menus in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=2BKt10zD8xA)
