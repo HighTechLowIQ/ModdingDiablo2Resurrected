@@ -54,6 +54,14 @@ This video looks at how to add unique and set item graphics (sprites) to Diablo 
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/newitems2.mpq).
 
+**Creating a Magic Find Potion**
+
+[![Creating a Magic Find Potion in Diablo 2 Resurrected](https://img.youtube.com/vi/b8Da15c18nU/0.jpg)](https://www.youtube.com/watch?v=b8Da15c18nU)
+
+In this guide we look at how to create a magic find potion in Diablo 2 Resurrected. This potion adds 150% magic find to our character for 30 seconds, allowing us to get better loot from enemies.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/magicpot.mpq).
+
 **New Runes and Runewords:**
 
 [![New Runes and Runewords | D2R Modding](https://img.youtube.com/vi/brOSBpiwejA/0.jpg)](https://www.youtube.com/watch?v=brOSBpiwejA)
@@ -106,3 +114,4 @@ TODO
 10. [Changing Colors in Diablo 2 Resurrected | D2R Modding - YouTube Video](https://www.youtube.com/watch?v=zryNy2wfoO4)
 11. [D2R Drop Rates Explained - YouTube Video](https://www.youtube.com/watch?v=sGLcnrZLAJg)
 12. [Custom Menus in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=2BKt10zD8xA)
+13. [Creating a Magic Find Potion in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=b8Da15c18nU)
