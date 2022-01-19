@@ -30,6 +30,14 @@ This video looks at Diablo 2 Resurrected's drop rates, and what calculations are
 
 The excel spreadsheet can be found [here](TyraelsMight.xlsx).
 
+**Creating New Stash Tabs in Diablo 2 Resurrected:**
+
+[![Adding New Stash Tabs in Diablo 2 Resurrected](https://img.youtube.com/vi/rAsr9Zvmn_Q/0.jpg)](https://www.youtube.com/watch?v=rAsr9Zvmn_Q)
+
+This video looks at how to make a bigger stash in D2R by adding new shared stash tabs. It involves editing the bankexpansionlayouthd.json, using SpriteEdit to create new stash tabs, and then hex editing the SharedStashSoftCoreV2.d2i.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/stashtabs.mpq).
+
 **Creating New Items and Sets in Diablo 2 Resurrected:**
 
 [![Creating New Items and Sets in Diablo 2 Resurrected](https://img.youtube.com/vi/Gtq-AuOMFBc/0.jpg)](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
@@ -115,3 +123,4 @@ TODO
 11. [D2R Drop Rates Explained - YouTube Video](https://www.youtube.com/watch?v=sGLcnrZLAJg)
 12. [Custom Menus in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=2BKt10zD8xA)
 13. [Creating a Magic Find Potion in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=b8Da15c18nU)
+14. [Making a Bigger Stash in Diablo 2 Resurrected - YouTube Video](https://youtu.be/rAsr9Zvmn_Q)
