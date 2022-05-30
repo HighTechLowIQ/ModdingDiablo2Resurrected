@@ -86,6 +86,14 @@ This video looks at how to change the color of item names, classes of items, and
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/colours.mpq).
 
+**Creating and Placing New Superuniques in Preset Maps:**
+
+[![Map Editing: Adding New Superuniques to Preset Maps](https://img.youtube.com/vi/lU6_6uGFyII/0.jpg)](https://www.youtube.com/watch?v=lU6_6uGFyII)
+
+In this guide we look at how to add new superuniques and enemies into maps in Diablo 2 Resurrected. This involves editing the various text files to create a new superunique and monster presets, and then adding those to the .ds1 map files.
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/superuniques.mpq).
+
 #### Older/Outdated Guides
 **How To Package Diablo 2 Resurrected Mods:**
 
