@@ -1,0 +1,79 @@
+{
+  "dependencies": {
+    "particles": [
+      {
+        "path": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light_sml.particles"
+      }
+    ],
+    "models": [],
+    "skeletons": [],
+    "animations": [],
+    "textures": [],
+    "physics": [],
+    "json": [],
+    "variantdata": [],
+    "objecteffects": [],
+    "other": []
+  },
+  "type": "UnitDefinition",
+  "name": "act_5_temple_entrance",
+  "entities": [
+    {
+      "type": "Entity",
+      "name": "entity_root",
+      "id": 3483009475,
+      "components": [
+        {
+          "type": "UnitRootComponent",
+          "name": "component_root",
+          "state_machine_filename": "",
+          "doNotInheritRotation": false,
+          "rotationOverride": {
+            "x": 0,
+            "y": 0.3826834,
+            "z": 0,
+            "w": 0.9238795
+          },
+          "doNotUseHDHeight": false,
+          "hideAllMeshWhenInOpenedMode": false,
+          "onCreateEventName": "",
+          "animations": []
+        }
+      ]
+    },
+    {
+      "type": "Entity",
+      "name": "entity_vfx1",
+      "id": 3524030982,
+      "components": [
+        {
+          "type": "VfxDefinitionComponent",
+          "name": "component_vfx1",
+          "filename": "data/hd/vfx/particles/env/UI/vfx_mouse_over_light_sml.particles",
+          "hardKillOnDestroy": false
+        },
+        {
+          "type": "TransformDefinitionComponent",
+          "name": "component_transform1",
+          "position": {
+            "x": 4,
+            "y": 5,
+            "z": -4
+          },
+          "orientation": {
+            "x": 0,
+            "y": 0,
+            "z": 0,
+            "w": 1
+          },
+          "scale": {
+            "x": 1,
+            "y": 1,
+            "z": 1
+          },
+          "inheritOnlyPosition": false
+        }
+      ]
+    }
+  ]
+}

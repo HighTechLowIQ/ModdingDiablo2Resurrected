@@ -38,6 +38,14 @@ This video looks at how to make a bigger stash in D2R by adding new shared stash
 
 The modded files shown in this video can be found in this repository, under [this folder](mods/stashtabs.mpq).
 
+**Creating New Maps in Diablo 2 Resurrected:**
+
+[![Creating New Maps in Diablo 2 Resurrected](https://img.youtube.com/vi/Xv81ZXPUNVQ/0.jpg)](https://www.youtube.com/watch?v=Xv81ZXPUNVQ)
+
+In this guide we look at how to create completely new maps and levels in Diablo 2 Resurrected. This involves editing .ds1 files, modifying the maps in Unity with the Unity D2R Scene Editor, creating new warps, and hopefully not crashing the game!
+
+The modded files shown in this video can be found in this repository, under [this folder](mods/warps.mpq).
+
 **Creating New Items and Sets in Diablo 2 Resurrected:**
 
 [![Creating New Items and Sets in Diablo 2 Resurrected](https://img.youtube.com/vi/Gtq-AuOMFBc/0.jpg)](https://www.youtube.com/watch?v=Gtq-AuOMFBc)
