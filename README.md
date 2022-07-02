@@ -123,6 +123,9 @@ TODO
 ## Tools
 
 1. [SpriteEdit](https://github.com/eezstreet/D2RModding-SpriteEdit/releases)
+2. [Unity D2R Scene Editor](https://github.com/pairofdocs/Unity-D2R-Scene-Editor)
+3. [DS1Edit](http://paul.siramy.free.fr/_divers/ds1/dl_ds1edit.html)
+4. [CascView](https://www.hiveworkshop.com/threads/ladiks-casc-viewer.331540/)
 
 ## Links
 
@@ -140,3 +143,4 @@ TODO
 12. [Custom Menus in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=2BKt10zD8xA)
 13. [Creating a Magic Find Potion in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=b8Da15c18nU)
 14. [Making a Bigger Stash in Diablo 2 Resurrected - YouTube Video](https://youtu.be/rAsr9Zvmn_Q)
+15. [Creating New Maps in Diablo 2 Resurrected - YouTube Video](https://www.youtube.com/watch?v=Xv81ZXPUNVQ)
